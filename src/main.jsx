@@ -13,9 +13,11 @@ import "./syle.css"
 // import Body from "./components/body";
 import Light from "./components/Light";
 import Tasbih from "./components/Tasbih";
+import SomaliQoutes from "./components/SomaliQoutes";
  createRoot(root).render(
 <div>
-  <Tasbih/>
+  {/* <Tasbih/> */}
+  <SomaliQoutes/>
 </div>
  )
 
